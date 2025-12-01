@@ -4,6 +4,10 @@ title AstralSim installer v1.0.2
 
 rem Installieren der benötigte Python-Bibliotheken
 
+type doh.txt
+
+echo Checking for neweset pip Version
+py -m pip install --upgrade pip
 echo Installing tkinter...
 py -m pip install tkinter
 echo Installing customtkinter...
@@ -16,6 +20,7 @@ echo Installing os...
 py -m pip install os
 
 cls
+type doh.txt
 
 echo Installing math...
 py -m pip install math
@@ -34,6 +39,7 @@ py -m pip install subprocess
 
 
 cls
+type dohii.txt
 
 echo
 echo -
